@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wenzhou Hongjin Commercial Management Co., Ltd.</title>
+    <meta
+      name="description"
+      content="Wenzhou Hongjin Commercial Management Co., Ltd. — commercial complex management, enterprise consulting, and marketing strategy."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-left">
+          <span data-i18n="top.founded">Founded: Jul 25, 2022</span>
+        </div>
+        <div class="topbar-right">
+          <span class="topbar-phone">
+            <img
+              src="assets/phone-en.svg"
+              alt="Company phone"
+              class="phone-image phone-image-en"
+            />
+            <img
+              src="assets/phone-zh.svg"
+              alt="公司联系电话"
+              class="phone-image phone-image-zh"
+            />
+          </span>
+          <span data-i18n="top.hours">Service: Mon - Fri 9:00-18:00</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <div class="logo">
+          <span class="logo-mark">HJ</span>
+          <div class="logo-text">
+            <span class="logo-title" data-i18n="brand.name">Wenzhou Hongjin Commercial Management Co., Ltd.</span>
+            <span class="logo-subtitle" data-i18n="brand.tag">Professional · Efficient · Sustainable</span>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#advantages" data-i18n="nav.advantages">Advantages</a></li>
+          <li><a href="#team" data-i18n="nav.team">Team</a></li>
+          <li><a href="#cases" data-i18n="nav.cases">Solutions</a></li>
+          <li><a href="#news" data-i18n="nav.news">Insights</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="zh">中文</button>
+        </div>
+        <a href="#contact" class="btn btn-primary nav-cta" data-i18n="nav.cta">Book a Consult</a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero-bg-image">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1400&auto=format&fit=crop" alt="Business consulting" />
+        </div>
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="hero-kicker" data-i18n="hero.kicker">Specialized in commercial complex & enterprise management</p>
+            <h1 data-i18n="hero.title">Empowering businesses for<br />efficient and steady growth</h1>
+            <p class="hero-desc" data-i18n="hero.desc">
+              Wenzhou Hongjin focuses on commercial complex management, enterprise consulting, and integrated marketing,
+              delivering sustainable operations with a professional team and systematic approach.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Book a consult</a>
+              <a href="#services" class="btn btn-outline" data-i18n="hero.cta2">View services</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <strong data-i18n="hero.capital.label">Registered Capital</strong>
+                <span data-i18n="hero.capital.value">CNY 1,000,000</span>
+              </div>
+              <div>
+                <strong data-i18n="hero.address.label">Registered Address</strong>
+                <span data-i18n="hero.address.value">Room 107, Bldg 34, Jinping Garden, Luoyang Town, Taishun, Wenzhou, Zhejiang</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-media">
+            <div class="hero-panel">
+              <div class="hero-badge" data-i18n="hero.badge">Creating value for clients since 2022</div>
+              <div class="hero-card secondary">
+                <h4 data-i18n="hero.card.secondary.title">Core Focus</h4>
+                <ul>
+                  <li data-i18n="hero.card.secondary.item1">Commercial complex management</li>
+                  <li data-i18n="hero.card.secondary.item2">Enterprise management & consulting</li>
+                  <li data-i18n="hero.card.secondary.item3">Marketing & brand promotion</li>
+                </ul>
+              </div>
+              <div class="hero-image-in-panel">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop" alt="Team collaboration" />
+              </div>
+              <div class="hero-card main">
+                <h3 data-i18n="hero.card.main.title">One-stop commercial management</h3>
+                <p data-i18n="hero.card.main.desc">From top-level planning to operations, boosting project efficiency end-to-end.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="section section-light">
+        <div class="container">
+          <div class="section-header center">
+            <p class="section-kicker">Core Services</p>
+            <h2 data-i18n="services.title">A full-cycle service system around business growth</h2>
+            <p class="section-desc" data-i18n="services.desc">
+              Strategy-led, operations-driven, data-informed — modular service packages for every growth stage.
+            </p>
+          </div>
+          <div class="grid services-grid">
+            <article class="card service-card">
+              <div class="icon-circle">
+                <img src="assets/icon-commercial.svg" alt="Commercial Complex" class="service-icon" />
+              </div>
+              <h3 data-i18n="services.item1.title">Commercial Complex Management</h3>
+              <p data-i18n="services.item1.desc">
+                Leasing strategy, operations, and brand mix optimization to lift asset value and rental yields.
+              </p>
+              <ul class="dot-list">
+                <li data-i18n="services.item1.point1">Project positioning & planning</li>
+                <li data-i18n="services.item1.point2">Leasing strategy & execution</li>
+                <li data-i18n="services.item1.point3">Operations & event programming</li>
+              </ul>
+            </article>
+
+            <article class="card service-card">
+              <div class="icon-circle">
+                <img src="assets/icon-consulting.svg" alt="Consulting" class="service-icon" />
+              </div>
+              <h3 data-i18n="services.item2.title">Enterprise Management Consulting</h3>
+              <p data-i18n="services.item2.desc">
+                Organization design, process optimization, and performance systems to build an efficient management backbone.
+              </p>
+              <ul class="dot-list">
+                <li data-i18n="services.item2.point1">Org & process mapping</li>
+                <li data-i18n="services.item2.point2">Policy & performance design</li>
+                <li data-i18n="services.item2.point3">Ops KPIs & analytics</li>
+              </ul>
+            </article>
+
+            <article class="card service-card">
+              <div class="icon-circle">
+                <img src="assets/icon-marketing.svg" alt="Marketing" class="service-icon" />
+              </div>
+              <h3 data-i18n="services.item3.title">Marketing Strategy & Planning</h3>
+              <p data-i18n="services.item3.desc">
+                Integrated marketing aligned to brand position and target audience, covering offline events and digital ads.
+              </p>
+              <ul class="dot-list">
+                <li data-i18n="services.item3.point1">Brand position & visual guidance</li>
+                <li data-i18n="services.item3.point2">Integrated campaign planning</li>
+                <li data-i18n="services.item3.point3">Online & offline promotion (incl. Google Ads)</li>
+              </ul>
+            </article>
+
+            <article class="card service-card">
+              <div class="icon-circle">
+                <img src="assets/icon-advisory.svg" alt="Advisory" class="service-icon" />
+              </div>
+              <h3 data-i18n="services.item4.title">Tailored Advisory</h3>
+              <p data-i18n="services.item4.desc">
+                Long-term, companion-style advisory tailored to each client’s context for sustained growth.
+              </p>
+              <ul class="dot-list">
+                <li data-i18n="services.item4.point1">Retainer management advisory</li>
+                <li data-i18n="services.item4.point2">Special-topic research</li>
+                <li data-i18n="services.item4.point3">Management training & coaching</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Advantages / Stats Section -->
+      <section id="advantages" class="section">
+        <div class="container">
+          <div class="section-header center">
+            <p class="section-kicker">Why Us</p>
+            <h2 data-i18n="adv.title">Four reasons to choose Hongjin</h2>
+          </div>
+          <div class="grid stats-grid">
+            <div class="card stat-card">
+              <span class="stat-value">90<span class="suffix">%</span></span>
+              <span class="stat-label" data-i18n="adv.item1.label">Client satisfaction</span>
+              <p data-i18n="adv.item1.desc">Standardized process + tailored plans keep satisfaction stable.</p>
+            </div>
+            <div class="card stat-card">
+              <span class="stat-value">80<span class="suffix">+</span></span>
+              <span class="stat-label" data-i18n="adv.item2.label">Clients served</span>
+              <p data-i18n="adv.item2.desc">Across commercial complexes, retail, and services.</p>
+            </div>
+            <div class="card stat-card">
+              <span class="stat-value">5<span class="suffix">+</span></span>
+              <span class="stat-label" data-i18n="adv.item3.label">Core service areas</span>
+              <p data-i18n="adv.item3.desc">Full chain from consulting to operations and marketing.</p>
+            </div>
+            <div class="card stat-card">
+              <span class="stat-value">2022</span>
+              <span class="stat-label" data-i18n="adv.item4.label">Founded</span>
+              <p data-i18n="adv.item4.desc">Iterating playbooks since day one, delivering repeatable wins.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section id="team" class="section section-dark">
+        <div class="container">
+          <div class="section-header center light">
+            <p class="section-kicker">Our Team</p>
+            <h2 data-i18n="team.title">A professional team to safeguard your project</h2>
+            <p class="section-desc" data-i18n="team.desc">
+              A cross-disciplinary team from commercial real estate, consulting, and marketing — strategic and hands-on.
+            </p>
+          </div>
+          <div class="grid team-grid">
+            <article class="card team-card">
+              <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop" alt="包松妍" />
+              </div>
+              <h3>包松妍</h3>
+              <p class="role" data-i18n="team.item1.role">Legal Representative / Project Director</p>
+              <p data-i18n="team.item1.desc">
+                Leads strategy and key projects; skilled in positioning and operations strategy for commercial complexes.
+              </p>
+            </article>
+            <article class="card team-card">
+              <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop" alt="Operations Team" />
+              </div>
+              <h3 data-i18n="team.item2.title">Operations Team</h3>
+              <p class="role" data-i18n="team.item2.role">Project operations & delivery</p>
+              <p data-i18n="team.item2.desc">
+                Experienced in mall ops, events, and brand management to ensure plans land and perform.
+              </p>
+            </article>
+            <article class="card team-card">
+              <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop" alt="Consulting Team" />
+              </div>
+              <h3 data-i18n="team.item3.title">Consulting & Strategy Team</h3>
+              <p class="role" data-i18n="team.item3.role">Consulting & marketing strategy</p>
+              <p data-i18n="team.item3.desc">
+                Focused on management optimization and marketing strategy to lift internal efficiency and market impact.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cases / Solutions Section -->
+      <section id="cases" class="section section-light">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Solutions</p>
+            <h2 data-i18n="cases.title">Sample solutions</h2>
+          </div>
+          <div class="grid cases-grid">
+            <article class="card case-card">
+              <div class="case-image">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop" alt="Commercial Complex" />
+              </div>
+              <h3 data-i18n="cases.item1.title">Full launch plan for new commercial complex</h3>
+              <p data-i18n="cases.item1.desc">
+                Positioning, flow planning, leasing strategy, and opening campaigns to secure stable traffic and rent in year one.
+              </p>
+              <ul class="tag-list">
+                <li data-i18n="cases.item1.tag1">Positioning</li>
+                <li data-i18n="cases.item1.tag2">Leasing</li>
+                <li data-i18n="cases.item1.tag3">Opening marketing</li>
+              </ul>
+            </article>
+            <article class="card case-card">
+              <div class="case-image">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&auto=format&fit=crop" alt="Management System" />
+              </div>
+              <h3 data-i18n="cases.item2.title">Management system upgrade for growth-stage firms</h3>
+              <p data-i18n="cases.item2.desc">
+                Rebalancing org structure and processes during rapid expansion; establishing policies and performance systems.
+              </p>
+              <ul class="tag-list">
+                <li data-i18n="cases.item2.tag1">Process optimization</li>
+                <li data-i18n="cases.item2.tag2">Policy building</li>
+                <li data-i18n="cases.item2.tag3">Performance management</li>
+              </ul>
+            </article>
+            <article class="card case-card">
+              <div class="case-image">
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&auto=format&fit=crop" alt="Marketing Campaign" />
+              </div>
+              <h3 data-i18n="cases.item3.title">Brand co-marketing & campaign design</h3>
+              <p data-i18n="cases.item3.desc">
+                Online-offline campaigns aligned to positioning and audience, amplified via Google Ads and digital channels.
+              </p>
+              <ul class="tag-list">
+                <li data-i18n="cases.item3.tag1">Integrated marketing</li>
+                <li data-i18n="cases.item3.tag2">Campaign design</li>
+                <li data-i18n="cases.item3.tag3">Data review</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- News / Blog Section -->
+      <section id="news" class="section">
+        <div class="container">
+          <div class="section-header center">
+            <p class="section-kicker">Insights</p>
+            <h2 data-i18n="news.title">Hongjin Insights · Latest</h2>
+          </div>
+          <div class="grid news-grid">
+            <article class="card news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&auto=format&fit=crop" alt="Industry Insights" />
+              </div>
+              <span class="news-tag" data-i18n="news.item1.tag">Industry</span>
+              <h3 data-i18n="news.item1.title">Commercial complexes enter the era of precision ops</h3>
+              <p data-i18n="news.item1.desc">
+                Leveraging footfall and tenant data to build precise ops models is key to performance uplift.
+              </p>
+              <span class="news-meta" data-i18n="news.item1.meta">2025-12-20 · Hongjin Research</span>
+            </article>
+            <article class="card news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop" alt="Company News" />
+              </div>
+              <span class="news-tag" data-i18n="news.item2.tag">Company</span>
+              <h3 data-i18n="news.item2.title">Hongjin launches SME management checkup</h3>
+              <p data-i18n="news.item2.desc">
+                A diagnostic service to quickly surface management gaps and improvement paths for SMEs.
+              </p>
+              <span class="news-meta" data-i18n="news.item2.meta">2025-11-05 · Company News</span>
+            </article>
+            <article class="card news-card">
+              <div class="news-image">
+                <img src="https://images.unsplash.com/photo-1556761175-b413dfb6772a?w=800&auto=format&fit=crop" alt="Case Study" />
+              </div>
+              <span class="news-tag" data-i18n="news.item3.tag">Case</span>
+              <h3 data-i18n="news.item3.title">Regional high street upgrade recap</h3>
+              <p data-i18n="news.item3.desc">
+                Tenant-mix reset and scene upgrades drove +35% traffic and steady rent growth.
+              </p>
+              <span class="news-meta" data-i18n="news.item3.meta">2025-09-18 · Project Case</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / CTA Section -->
+      <section id="contact" class="section section-accent">
+        <div class="container contact-inner">
+          <div class="contact-info">
+            <p class="section-kicker light">Contact Us</p>
+            <h2 data-i18n="contact.title">Book a consult · Get a tailored plan</h2>
+            <p data-i18n="contact.desc">
+              Leave your project info and contacts; our consultants will reach out with an initial diagnosis and proposal.
+            </p>
+            <ul class="contact-list">
+              <li data-i18n="contact.company"><strong>Company:</strong> Wenzhou Hongjin Commercial Management Co., Ltd.</li>
+              <li data-i18n="contact.address"><strong>Address:</strong> Room 107, Bldg 34, Jinping Garden, Luoyang Town, Taishun, Wenzhou, Zhejiang</li>
+              <li data-i18n="contact.email"><strong>Email:</strong> godfreyezra7@gmail.com</li>
+            </ul>
+          </div>
+          <form class="card contact-form">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name" data-i18n="form.name.label">Your Name</label>
+                <input id="name" type="text" placeholder="Enter your name" data-i18n-placeholder="form.name.ph" />
+              </div>
+              <div class="form-field">
+                <label for="company" data-i18n="form.company.label">Company</label>
+                <input id="company" type="text" placeholder="Enter your company" data-i18n-placeholder="form.company.ph" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="phone" data-i18n="form.phone.label">Phone</label>
+                <input id="phone" type="tel" placeholder="Enter your phone" data-i18n-placeholder="form.phone.ph" />
+              </div>
+              <div class="form-field">
+                <label for="email" data-i18n="form.email.label">Email</label>
+                <input id="email" type="email" placeholder="Enter your email" data-i18n-placeholder="form.email.ph" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message" data-i18n="form.message.label">Project or needs</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Describe your project, stage, or pain points"
+                data-i18n-placeholder="form.message.ph"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <span data-i18n="form.submit">Submit</span>
+            </button>
+            <p class="form-note" data-i18n="form.note">This is a demo page; the form is not connected to backend yet.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-col">
+          <div class="logo">
+            <span class="logo-mark">HJ</span>
+            <div class="logo-text">
+              <span class="logo-title" data-i18n="brand.name">Wenzhou Hongjin Commercial Management Co., Ltd.</span>
+              <span class="logo-subtitle" data-i18n="brand.tag">Professional · Efficient · Sustainable</span>
+            </div>
+          </div>
+          <p class="footer-desc" data-i18n="footer.desc">
+            Committed to pragmatic, reliable commercial management and consulting, creating long-term value with partners.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.links">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#services" data-i18n="nav.services">Services</a></li>
+            <li><a href="#advantages" data-i18n="nav.advantages">Advantages</a></li>
+            <li><a href="#cases" data-i18n="nav.cases">Solutions</a></li>
+            <li><a href="#news" data-i18n="nav.news">Insights</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <ul class="footer-links">
+            <li data-i18n="footer.address">Address: Room 107, Bldg 34, Jinping Garden, Luoyang Town, Taishun, Wenzhou, Zhejiang</li>
+            <li>
+              <img
+                src="assets/phone-en.svg"
+                alt="Company phone"
+                class="phone-image phone-image-en"
+              />
+              <img
+                src="assets/phone-zh.svg"
+                alt="公司联系电话"
+                class="phone-image phone-image-zh"
+              />
+            </li>
+            <li data-i18n="footer.email">Email: godfreyezra7@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <span data-i18n="footer.copy">© 2022-2026 Wenzhou Hongjin Commercial Management Co., Ltd. All rights reserved.</span>
+          <span data-i18n="footer.disclaimer">This site is for demo purposes only and not investment or legal advice.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
